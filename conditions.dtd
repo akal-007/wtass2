@@ -1,0 +1,31 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT conditions (recharge)+>
+<!ATTLIST conditions
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT recharge (offers,one month,two months,three months,one year)>
+<!ATTLIST recharge
+  xmlns CDATA #FIXED ''
+  
+
+<!ELEMENT offers (#PCDATA)>
+<!ATTLIST offers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT one month (#PCDATA)>
+<!ATTLIST one month
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT two months (#PCDATA)>
+<!ATTLIST two months
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT three months (#PCDATA)>
+<!ATTLIST three months
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT one year (#PCDATA)>
+<!ATTLIST one year
+  xmlns CDATA #FIXED ''>
+

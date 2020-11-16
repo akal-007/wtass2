@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="conditions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="recharge"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recharge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="offers"/>
+        <xs:element ref="one month"/>
+        <xs:element ref="two months"/>
+        <xs:element ref="three months"/>
+        <xs:element ref="one year"/> 
+      </xs:sequence>
+      
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="offers" type="xs:string"/>
+  <xs:element name="one month" type="xs:integer"/>
+  <xs:element name="two months" type="xs:integer"/>
+  <xs:element name="three months" type="xs:integer"/>
+  <xs:element name="one year" type="xs:integer"/>
+
+</xs:schema>

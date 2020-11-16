@@ -1,0 +1,28 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "conditions.xsl"?>
+<conditions>
+  <offers="AIRTEL OFFERS"</offers>
+    <one month>"100"</one month>
+    <two months>"200"</two months>
+    <three months>"300"</three months>
+    <one year>"1000"</one year>
+
+<offers="VODAPHONE OFFERS"</offers>
+    <one month>"300"</one month>
+    <two months>"400"</two months>
+    <three months>"500"</three months>
+    <one year>"900"</one year>
+  
+<offers="JIO OFFES"</offers>
+    <one month>"300"</one month>
+    <two months>"500"</two months>
+    <three months>"700"</three months>
+    <one year>"900"</one year>
+  
+  
+   <offers="BSNL OFFERS"</offers>
+    <one month>"150"</one month>
+    <two months>"400"</two months>
+    <three months>"550"</three months>
+    <one year>"900"</one year>
+</conditions>

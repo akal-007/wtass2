@@ -1,0 +1,36 @@
+{
+    "conditions": {
+        "recharge": [
+            {   
+                "offers":"AIRTEL OFFERS",
+                "one month": "100",
+                "two months": "200",
+                "three months": "300",
+                "one year":"1000"
+                
+            },
+            {
+                "offers":"VODAPHONE OFFERS",
+                "one month": "300",
+                "two months": "400",
+                "three months": "500",
+                "one year":"900"
+            },
+            {
+                "offers":"JIO OFFERS",
+                "one month": "300",
+                "two months": "500",
+                "three months": "700",
+                "one year":"900"
+            },
+            {
+                "offers":"BSNL OFFERS",
+                "one month": "150",
+                "two months": "400",
+                "three months": "550",
+                "one year":"900"
+            }
+            
+        ]
+    }
+}

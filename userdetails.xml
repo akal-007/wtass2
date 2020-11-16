@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "userdetails.xsl"?>
+<details>
+  <user uid="01">
+    <Name>Akalya</Name>
+    <Phone> 987654321 </Phone>
+    <Card_name> Airtle </Card_name>
+    <Ruppees> 400 </Ruppees>
+    <email> akalya@gmail.com </email>
+  </user>
+  <user uid="02">
+    <Name>Vasuki</Name>
+    <Phone> 987650000 </Phone>
+    <Card_name> Vodaphone </Card_name>
+    <Ruppees> 500 </Ruppees>
+    <email> vasu@gmail.com </email>
+  </user>
+  <user uid="03">
+    <Name>Mithra</Name>
+    <Phone> 777754321 </Phone>
+    <Card_name> Jio </Card_name>
+    <Ruppees> 350 </Ruppees>
+    <email> mithu@gmail.com </email>
+  </user>
+  
+  <user uid="04">
+    <Name>sree</Name>
+    <Phone> 4445555000 </Phone>
+    <Card_name> BSNL </Card_name>
+    <Ruppees> 450 </Ruppees>
+    <email> sree@gmail.com </email>
+  </user>
+  
+</details>

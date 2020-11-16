@@ -1,0 +1,39 @@
+{
+    "details": {
+        "user": [
+            {
+                "Name": "Akalya",
+                "Phone": "987654321",
+                "Card_name": "Airtel",
+                "Ruppees":"400",
+                "E-mail": "akalya@gmail.com",
+                "_uid": "01"
+            },
+            {
+                "Name": "Vasuki",
+                "Phone": "987650000",
+                "Card_name": "Vodaphone",
+                "Ruppees":"500",
+                "E-mail": "vasu@gmail.com",
+                "_uid": "02"
+            },
+            {
+                "Name": "Mithra",
+                "Phone": "777754321",
+                "Card_name": "Jio",
+                "Ruppees":"350",
+                "E-mail": "mithu@gmail.com",
+                "_uid": "03"
+            },
+            {
+                "Name": "sree",
+                "Phone": "4445555000",
+                "Card_name": "BSNL",
+                "Ruppees":"450",
+                "E-mail": "sree@gmail.com",
+                "_uid": "04"
+            }
+            
+        ]
+    }
+}

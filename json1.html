@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+	body{
+		background-color:pink;
+	}
+</style>
+<h2>FeedBack details!!!</h2>
+<h3>"Last person feed back details"<h3>
+<p id="demo"></p>
+<script>
+var txt = '{"Name":"Akalya", "Card_name":"Airtel", "Phone":"xxxxxxxx"}'
+var obj = JSON.parse(txt);
+document.getElementById("demo").innerHTML = obj.Name + ", " + obj.Card_name + ", " + obj.Phone;
+
+</script>
+</body>
+</html>

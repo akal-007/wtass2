@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="user"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="user">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Phone"/>
+        <xs:element ref="Card_name"/>
+        <xs:element ref="Ruppees"/>
+        <xs:element ref="E-mail"/>
+      </xs:sequence>
+      <xs:attribute name="uid" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name" type="xs:NCName"/>
+  <xs:element name="Phone" type="xs:integer"/>
+  <xs:element name="Card_name" type="xs:NCName"/>
+  <xs:element name="Ruppees" type="xs:integer"/>
+  <xs:element name="E-mail" type="xs:string"/>
+</xs:schema>  

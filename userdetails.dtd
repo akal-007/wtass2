@@ -1,0 +1,30 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT details (user)+>
+<!ATTLIST details
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT user (Nmae,Phone,Card_name,Ruppees,E-mail)>
+<!ATTLIST user
+  xmlns CDATA #FIXED ''
+  uid CDATA #REQUIRED>
+
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Phone (#PCDATA)>
+<!ATTLIST Phone
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Card_name (#PCDATA)>
+<!ATTLIST Card_name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Ruppees (#PCDATA)>
+<!ATTLIST Ruppees
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT E-mail (#PCDATA)>
+<!ATTLIST E-mail
+  xmlns CDATA #FIXED ''>
